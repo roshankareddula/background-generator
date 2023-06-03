@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+
+body {
+  font-family: "Oswald";
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  top: 15%;
+  background: linear-gradient(
+    to right,
+    rgb(0, 255, 0),
+    rgb(255, 0, 0)
+  ); /* Standard syntax */
+}
+
+h1 {
+  font: 200 3.5em;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+h3 {
+  font: 900 1em;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+}
+
+.css-button-3d--black {
+  font-family: "Oswald";
+  font-size: 1.3rem;
+  min-width: 130px;
+  height: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #343a40;
+  box-shadow: 0 5px #212529;
+}
+.css-button-3d--black:hover {
+  box-shadow: 0 3px #212529;
+  top: 1px;
+}
+.css-button-3d--black:active {
+  box-shadow: 0 0 #212529;
+  top: 5px;
+}
